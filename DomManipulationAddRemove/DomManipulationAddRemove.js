@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const newItem = document.createElement('li'); // Create a new list item
         newItem.textContent = `Item ${itemCount}`; // Set the text content
         itemList.appendChild(newItem); // Append the new item to the list
-        this.reset(); // Reset the form (optional)
     });
 
     // Function to remove the last item from the list

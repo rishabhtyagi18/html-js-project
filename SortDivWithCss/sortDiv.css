@@ -37,3 +37,26 @@ body {
 .box-4 {
     order: 4; /* Fourth */
 }
+
+
+/* Using Grid */
+
+/* .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.box {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcoral;
+    border: 1px solid #000;
+}
+
+.box1 { grid-area: 2 / 1; } 
+.box2 { grid-area: 1 / 1; }
+.box3 { grid-area: 1 / 2; } 
+.box4 { grid-area: 2 / 2; } */
