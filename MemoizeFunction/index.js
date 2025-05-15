@@ -34,3 +34,10 @@ console.log(memoizedExpensiveFunction(5)); // Calculating result for: [5]
 console.log(memoizedExpensiveFunction(5)); // Fetching from cache for: [5]
 console.log(memoizedExpensiveFunction(10)); // Calculating result for: [10]
 console.log(memoizedExpensiveFunction(10)); // Fetching from cache for: [10]
+
+
+// # How Memoization Works
+// 1. Cache Storage: A data structure (often an object or a Map) is used to store the results of function calls.
+// 2. Check Cache: Before executing the function, the cache is checked to see if the result for the given input already exists.
+// 3. Return Cached Result: If the result is found in the cache, it is returned immediately, avoiding the need to recompute it.
+// 4. Compute and Store: If the result is not in the cache, the function is executed, and the result is stored in the cache for future us
