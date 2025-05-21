@@ -28,6 +28,7 @@ const inputStrs = ["eat", "tea", "tan", "ate", "nat", "bat", ""];
 const result = groupAnagrams(inputStrs);
 console.log(result);
 
+// [ [ 'eat', 'tea', 'ate' ], [ 'tan', 'nat' ], [ 'bat' ], [ '' ] ]
 
   
 // # Explanation of Enhancements:

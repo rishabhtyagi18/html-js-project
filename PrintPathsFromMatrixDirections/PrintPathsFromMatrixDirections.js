@@ -26,7 +26,7 @@ const matrix = [
 ];
 
 console.log("All paths from source to end:");
-printPaths(matrix);
+printPaths(matrix); // RD DR
 
 
 // #Explanation:
